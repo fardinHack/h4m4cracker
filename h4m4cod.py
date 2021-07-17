@@ -49,13 +49,15 @@ def cb():
 
 
 logo = logo ="""
-
-
-
-       INSTAGRAM=uflo_l
-       FACEBOOK=MOHAMMED SABAH
-       
-                                                            
+  
+           
+==================                          
+ H4M4 CRACKER                                     
+==================                                    
+   
+                                         
+                                                                      
+                                                                    
 \033[1;97m  
 \033[1;97m          WELCOM BACK
 \033[1;97m  KURDISH TOOL BY H4M4
