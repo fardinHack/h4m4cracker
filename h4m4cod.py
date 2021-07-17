@@ -49,13 +49,13 @@ def cb():
 
 
 logo = logo ="""
+
 ==================                          
- H4M4 CRACKER                                     
-==================                                    
-   
+ MOHAMMED SABAH                                    
+==================  
 \033[1;97m  
-\033[1;97m  WELCOM BACK
-\033[1;97m  ONE TOOL CHANEEL HAMA IT
+\033[1;97m       WELCOM BACK
+\033[1;97m  THE ONE TOOL CHANEEL HAMA IT
 """
 CorrectUsername = 'H4M4'
 CorrectPassword = 'CRACKER'
