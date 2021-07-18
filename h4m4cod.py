@@ -48,7 +48,7 @@ def cb():
     os.system('clear')
         
         
-logo ="""             .-/+osssso+/-`
+logo ="""                   .-/+osssso+/-`
              `/sdNMMMMMMMMMMMMMMNds/`
           .odMMMMMMMMMMMMMMMMMMMMMMMMdo.
         :hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:
