@@ -48,16 +48,32 @@ def cb():
     os.system('clear')
         
         
-logo ="""  _    _                          _____        __ _
- | |  | |                        / ____|      / _| |
- | |__| | __ _ _ __ ___   __ _  | (___   ___ | |_| |___      ____ _ _ __ ___
- |  __  |/ _` | '_ ` _ \ / _` |  \___ \ / _ \|  _| __\ \ /\ / / _` | '__/ _ \
- | |  | | (_| | | | | | | (_| |  ____) | (_) | | | |_ \ V  V / (_| | | |  __/
- |_|  |_|\__,_|_| |_| |_|\__,_| |_____/ \___/|_|  \__| \_/\_/ \__,_|_|  \___|
- ==================================
- ==================================
+logo =""".-/+osssso+/-`
+             `/sdNMMMMMMMMMMMMMMNds/`
+          .odMMMMMMMMMMMMMMMMMMMMMMMMdo.
+        :hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:
+      -dMMMNmMMMMMMMNNNNNNNNNNMMMMMMMmNMMMd-
+    `sMNNs-oMMMMNNNNNNNNNNNNNNNNNNMMMMo-sNNMs
+   `dM+s-:sMMMNNNNNNMMNMNNMNMMNNNNNNMMMs-:s+Md`
+  `mho.h/:dMNNMMMNMMNmNoso-dmNMMNMMMNNMd:/d`ohm`
+  hs//::oMMNMMMMNMMMMNMmmo+NNMMMMNMMMMNMNo:-+:yh
+ /M--y+:hMNNNNNNNMMMNNMMmmMMNMMMMNNNNNNNMh:oy.:M:
+ dd+./.hMNMMMMMNMMMNNNNNooNNNNNMMMNMMMMMNMy./.odh
+`M-m-/yyMNMMMMMNMMMMNMNdssdNMNMMMMNMMMMMNMyy/-m-N
+`M:-ho`NMNNNNNNNNNmho-sN:/Ms-shmNNNNNNNNNMm`sh-/M`
+`Mh`+ sdMNMMMMMh`     NMosMN     `dMMMMMNMdo`/`hN
+ d/h/.m.MNMMMMM+      yM--My      oMMMMMNM.m`/h/h
+ /d`/ss mNNNNNN-      `d.-h`      -NNNNNNd ss/`d:
+  hm/`+ d:mNMMN                    NMMNd:h`+`/mh
+  `doss/++.mNNh                    hNNm`o//ssod`
+   `ds.:+y-:sso                    osy:-y+--sd`
+     sMy+/:./+                      +/.:/+yMs
+      -dyo/////.```            ```./////ohh-
+        :hMhoosss/`            `/sssoohMh:
+          .ohysoos.            .soosyh+`
+             `/sdN`            `Nds/`
 \033[1;97m  
-\033[1;97m       WELCOM BACK
+\033[1;97m      WELCOM BACK
 \033[1;97m  THE ONE TOOL CHANEEL HAMA IT
 """
 CorrectUsername = 'H4M4'
