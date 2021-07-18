@@ -48,16 +48,33 @@ def cb():
     os.system('clear')
         
         
-logo ="""_    _                          _____        __ _
- | |  | |                        / ____|      / _| |
- | |__| | __ _ _ __ ___   __ _  | (___   ___ | |_| |___      ____ _ _ __ ___
- |  __  |/ _` | '_ ` _ \ / _` |  \___ \ / _ \|  _| __\ \ /\ / / _` | '__/ _ \
- | |  | | (_| | | | | | | (_| |  ____) | (_) | | | |_ \ V  V / (_| | | |  __/
- |_|  |_|\__,_|_| |_| |_|\__,_| |_____/ \___/|_|  \__| \_/\_/ \__,_|_|  \___|
-   
+logo =""".-/+osssso+/-`
+             `/sdNMMMMMMMMMMMMMMNds/`
+          .odMMMMMMMMMMMMMMMMMMMMMMMMdo.
+        :hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:
+      -dMMMNmMMMMMMMNNNNNNNNNNMMMMMMMmNMMMd-
+    `sMNNs-oMMMMNNNNNNNNNNNNNNNNNNMMMMo-sNNMs
+   `dM+s-:sMMMNNNNNNMMNMNNMNMMNNNNNNMMMs-:s+Md`
+  `mho.h/:dMNNMMMNMMNmNoso-dmNMMNMMMNNMd:/d`ohm`
+  hs//::oMMNMMMMNMMMMNMmmo+NNMMMMNMMMMNMNo:-+:yh
+ /M--y+:hMNNNNNNNMMMNNMMmmMMNMMMMNNNNNNNMh:oy.:M:
+ dd+./.hMNMMMMMNMMMNNNNNooNNNNNMMMNMMMMMNMy./.odh
+`M-m-/yyMNMMMMMNMMMMNMNdssdNMNMMMMNMMMMMNMyy/-m-N
+`M:-ho`NMNNNNNNNNNmho-sN:/Ms-shmNNNNNNNNNMm`sh-/M`
+`Mh`+ sdMNMMMMMh`     NMosMN     `dMMMMMNMdo`/`hN
+ d/h/.m.MNMMMMM+      yM--My      oMMMMMNM.m`/h/h
+ /d`/ss mNNNNNN-      `d.-h`      -NNNNNNd ss/`d:
+  hm/`+ d:mNMMN                    NMMNd:h`+`/mh
+  `doss/++.mNNh                    hNNm`o//ssod`
+   `ds.:+y-:sso                    osy:-y+--sd`
+     sMy+/:./+                      +/.:/+yMs
+      -dyo/////.```            ```./////ohh-
+        :hMhoosss/`            `/sssoohMh:
+          .ohysoos.            .soosyh+`
+             `/sdN`            `Nds/`   
 \033[1;97m  
-\033[1;97m       WELCOM BACK
-\033[1;97m  THE ONE TOOL CHANEEL HAMA IT
+\033[1;97m      WELCOM BACK
+\033[1;97m  TOOL BY MOHAMMED SABAH
 """
 CorrectUsername = 'H4M4'
 CorrectPassword = 'CRACKER'
@@ -69,7 +86,7 @@ while loop == 'true':
     if username == CorrectUsername:
         password = raw_input('\x1b[1;97m\xe2\x9e\xa3\x1b\x1b[31;1m PASSWORD: ')
         if password == CorrectPassword:
-            print '\x1b[1;92m[\xe2\x9c\x93] TOOL WAS OPENED  '
+            print '\x1b[1;92m[\xe2\x9c\x93] TOOL SUCCESSFULLY LOGGED  '
             time.sleep(3)
             loop = 'false'
         else:
@@ -124,7 +141,7 @@ def action():
     xxx = str(len(id))
     psb('[\xe2\x9c\x93] ALL NUMBERS: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;97m KURDISH TOOL BY H4M4 CRACKER...')
+    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;97m CRACK FACEBOOK WAS STARTED...')
     time.sleep(0.1)
     psb('[!] TO STOP TOOL USE  [CTRL + Z]')
     time.sleep(0.5)
