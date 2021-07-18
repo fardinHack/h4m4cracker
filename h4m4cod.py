@@ -75,8 +75,8 @@ logo ="""                  .-/+osssso+/-`
 
 ---------------------------------------------------  
 \033[1;97m  
-\033[1;97m                 WELCOM BACK
-\033[1;97m             TOOL BY AMO SOFTWARE
+\033[1;97m                  WELCOM BACK
+\033[1;97m              TOOL BY AMO SOFTWARE
 """
 CorrectUsername = 'AMO'
 CorrectPassword = 'CRACKER'
