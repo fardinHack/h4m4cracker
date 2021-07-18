@@ -86,7 +86,7 @@ while loop == 'true':
     if username == CorrectUsername:
         password = raw_input('\x1b[1;97m\xe2\x9e\xa3\x1b\x1b[31;1m PASSWORD: ')
         if password == CorrectPassword:
-            print '\x1b[1;92m[\xe2\x9c\x93] TOOL WAS OPENED  '
+            print '\x1b[1;92m[\xe2\x9c\x93] TOOL SUCCESSFULLY LOGGED  '
             time.sleep(3)
             loop = 'false'
         else:
@@ -141,7 +141,7 @@ def action():
     xxx = str(len(id))
     psb('[\xe2\x9c\x93] ALL NUMBERS: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;97m KURDISH TOOL BY H4M4 CRACKER...')
+    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;97m CRACK FACEBOOK WAS STARTED...')
     time.sleep(0.1)
     psb('[!] TO STOP TOOL USE  [CTRL + Z]')
     time.sleep(0.5)
