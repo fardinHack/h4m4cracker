@@ -75,10 +75,10 @@ logo ="""                  .-/+osssso+/-`
 
 ---------------------------------------------------  
 \033[1;97m  
-\033[1;97m      WELCOM BACK
-\033[1;97m  TOOL BY MOHAMMED SABAH
+\033[1;97m              WELCOM BACK
+\033[1;97m           TOOL BY AMO SOFTWARE
 """
-CorrectUsername = 'H4M4'
+CorrectUsername = 'AMO'
 CorrectPassword = 'CRACKER'
 os.system('clear')
 print logo
