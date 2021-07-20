@@ -82,6 +82,13 @@ logo ="""
     //------\\    ||   \/  ||   ||       ||
    //        \\   ||       ||   ||       ||
   //          \\  ||       ||   ||-------||
+-------------------------------------------------
+TOOL BY AMO SOFTWARE
+
+github:https://github.com/h4m4cod
+instagram:uflo_ls
+facebook:Amo Software
+-------------------------------------------------
 """
 
 os.system("filget AMO SOFTWARE")
