@@ -48,52 +48,6 @@ def cb():
     os.system('clear')
 os.system("filget AMO SOFTWARE")
 
-logo ="""
-                                                   
-                  .-/+osssso+/-`
-             `/sdNMMMMMMMMMMMMMMNds/`
-          .odMMMMMMMMMMMMMMMMMMMMMMMMdo.
-        :hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:
-      -dMMMNmMMMMMMMNNNNNNNNNNMMMMMMMmNMMMd-
-    `sMNNs-oMMMMNNNNNNNNNNNNNNNNNNMMMMo-sNNMs
-   `dM+s-:sMMMNNNNNNMMNMNNMNMMNNNNNNMMMs-:s+Md`
-  `mho.h/:dMNNMMMNMMNmNoso-dmNMMNMMMNNMd:/d`ohm`
-  hs//::oMMNMMMMNMMMMNMmmo+NNMMMMNMMMMNMNo:-+:yh
- /M--y+:hMNNNNNNNMMMNNMMmmMMNMMMMNNNNNNNMh:oy.:M:
- dd+./.hMNMMMMMNMMMNNNNNooNNNNNMMMNMMMMMNMy./.odh
-`M-m-/yyMNMMMMMNMMMMNMNdssdNMNMMMMNMMMMMNMyy/-m-N
-`M:-ho`NMNNNNNNNNNmho-sN:/Ms-shmNNNNNNNNNMm`sh-/M`
-`Mh`+ sdMNMMMMMh`     NMosMN     `dMMMMMNMdo`/`hN
- d/h/.m.MNMMMMM+      yM--My      oMMMMMNM.m`/h/h
- /d`/ss mNNNNNN-      `d.-h`      -NNNNNNd ss/`d:
-  hm/`+ d:mNMMN                    NMMNd:h`+`/mh
-  `doss/++.mNNh                    hNNm`o//ssod`
-   `ds.:+y-:sso                    osy:-y+--sd`
-     sMy+/:./+                      +/.:/+yMs
-      -dyo/////.```            ```./////ohh-
-        :hMhoosss/`            `/sssoohMh:
-          .ohysoos.            .soosyh+`
-             `/sdN`            `Nds/` 
-
-                     
-       //\\       ||\\    //||   ||-------||
-      //  \\      || \\  // ||   ||       ||
-     //    \\     ||  \\//  ||   ||       ||
-    //------\\    ||   \/  ||   ||       ||
-   //        \\   ||       ||   ||       ||
-  //          \\  ||       ||   ||-------||
--------------------------------------------------
-TOOL BY AMO SOFTWARE
-
-github:https://github.com/h4m4cod
-
-instagram:uflo_l
-
--------------------------------------------------
-"""
-
-os.system("filget AMO SOFTWARE")
-
 
 back = 0
 successful = []
