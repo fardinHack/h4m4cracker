@@ -78,7 +78,7 @@ logo ="""                  .-/+osssso+/-`
 \033[1;97m                  WELCOM BACK
 \033[1;97m              TOOL BY AMO SOFTWARE
 """
-CorrectUsername = 'AMO'
+CorrectUsername = 'Fardin'
 CorrectPassword = 'CRACKER'
 os.system('clear')
 print logo
